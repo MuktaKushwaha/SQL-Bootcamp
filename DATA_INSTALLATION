@@ -1,5 +1,7 @@
 These instructions are for loading class data to a running MySQL database server.
 
+Vinod Kushwaha
+
 This is not necessary for class.  All that is needed for class is a MySQL
 database client, such as Navicat or MySQL Workbench, which can be used to
 connect to a server I will host for the class.
