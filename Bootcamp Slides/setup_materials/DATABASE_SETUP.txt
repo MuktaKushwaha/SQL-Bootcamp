@@ -1,0 +1,34 @@
+Once you have a working MySQL installation, please install the databases sampdb and books.
+
+This is done by:
+    1   Creating a 'connection' to the database server you have installed
+    2   Running the database setup queries over that connection
+
+
+CREATING A CONNECTION -- WORKBENCH
+To create a connection to a database server with the Workbench client:
+- Click the plus sign inside a circle.  OR, on the menu bar, click Database > Manage Server Connections.  In the dialog that pops up, click "new" in the bottom left corner.
+- A dialog box will pop up, offering options to fill values like 'hostname' and 'port'.  Leave all these at their default values.
+- In that same dialog, do provide some value in the box 'Connection Name'.  Click 'Test Connection' to verify the connection works.  If it doesn't, it is very likely that the database server is not installed, or is not running.  Please see the software installation instructions.
+- Click close.
+
+RUNNING QUERIES -- USING THE CONNECTION
+Again, in Workbench.
+
+- Your initial screen will now hold a box with the name you gave the connection created above.  Click this box.
+- If all is well, a new window will pop up, with your cursor sitting in a 'query window'.  Queries to the server are entered here, either by typing or loading from a file.
+- Load the mysql database setup files into this window.  This is done by clicking on the folder icon.  This opens a file navigator.  
+- In that navigator, navigate to the directory holding the setup materials, then data/sampdb/mysql/setup_sampdb.sql.  Open that file in your query window.
+- A lot of text should appear in the query window.  The class is about making sense of all that, don't worry about it for now.
+- Click the thunderbolt icon.  This runs the query, which sets up the database and tables and populates them with values.
+
+Perform the same sequence with the file data/books/books_mysql.sql.
+
+A COMMON MISTAKE is to navigate to the files from the Mac Finder or Windows Explorer, and then click on them.  This works with the likes of Excel files -- the computer knows to open them as Excel.  It will not work with .sql files, the computer has no association of that extension to Workbench (and shouldn't).  So go through Workbench.
+
+If you have problems or questions, please contact me.
+
+gordon@practicalhorseshoeing.com
+917-620-3402
+
+
